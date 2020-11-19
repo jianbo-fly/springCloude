@@ -12,4 +12,5 @@ public interface PaymentService {
     Payment getPaymentById(Long id);
 
     void feignTimeOut();
+
 }
